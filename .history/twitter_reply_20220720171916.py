@@ -8,7 +8,7 @@ ssl._create_default_https_context = ssl._create_unverified_context
 consumer_key = "XXX"
 consumer_secret = "XXX"
 access_token = "XXX"
-access_token_secret = "XXX"
+access_token_secret = "0XPHhXSHBbchY6nItpPlEVJyP4fgybT88OuAVkZdAUexO"
 
 # Authentication with Twitter
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)

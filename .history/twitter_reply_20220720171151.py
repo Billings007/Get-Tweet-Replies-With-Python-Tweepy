@@ -5,10 +5,10 @@ import ssl
 ssl._create_default_https_context = ssl._create_unverified_context
 
 # Oauth keys
-consumer_key = "XXX"
-consumer_secret = "XXX"
-access_token = "XXX"
-access_token_secret = "XXX"
+consumer_key = "iw9671nIIGXTB0v2kVsR7VVS7"
+consumer_secret = "1PYu6gOHRZOTfiHxYM3TXHdLgFGNo1iVnyaDwjxETAZYderZWE"
+access_token = "1132951742-rJVrQcl8HC17qybZ3LvpGHsGw7mY5YIfRijA6sB"
+access_token_secret = "0XPHhXSHBbchY6nItpPlEVJyP4fgybT88OuAVkZdAUexO"
 
 # Authentication with Twitter
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
