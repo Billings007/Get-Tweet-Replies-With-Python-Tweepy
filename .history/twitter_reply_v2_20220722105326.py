@@ -5,16 +5,9 @@ import ssl
 
 ssl._create_default_https_context = ssl._create_unverified_context
 
-# Oauth keys
-#consumer_key = "XXX"
-#consumer_secret = "XXX"
-#access_token = "XXX"
-#access_token_secret = "XXX"
+# Oauth and client creation
 bearer_token = "AAAAAAAAAAAAAAAAAAAAAEcyeAEAAAAAYVElWMuD5xJSfb6nbkMX%2BuQguVU%3DROs4CCVh9uIfEsZdGm5CokvXLk1EKNc55lwsWtkP3To5t7Fumf"
-client = tweepy.Client(bearer_token)
-# Authentication with Twitter
-#auth = tweepy.OAuth2BearerHandler(bearer_token)
-#api = tweepy.API(auth)
+client = tweepy.Client(bearer_token)#
 
 # update these for the tweet you want to process replies to 'name' = the account username and you can find the tweet id within the tweet URL
 name = 'Trainwreckstv'

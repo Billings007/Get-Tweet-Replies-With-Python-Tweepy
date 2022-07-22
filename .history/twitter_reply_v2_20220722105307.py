@@ -6,10 +6,6 @@ import ssl
 ssl._create_default_https_context = ssl._create_unverified_context
 
 # Oauth keys
-#consumer_key = "XXX"
-#consumer_secret = "XXX"
-#access_token = "XXX"
-#access_token_secret = "XXX"
 bearer_token = "AAAAAAAAAAAAAAAAAAAAAEcyeAEAAAAAYVElWMuD5xJSfb6nbkMX%2BuQguVU%3DROs4CCVh9uIfEsZdGm5CokvXLk1EKNc55lwsWtkP3To5t7Fumf"
 client = tweepy.Client(bearer_token)
 # Authentication with Twitter
