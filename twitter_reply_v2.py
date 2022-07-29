@@ -13,9 +13,9 @@ bearer_token = os.getenv("bearer_token")
 client = tweepy.Client(bearer_token)
 
 # update these for the tweet you want to process replies to 'name' = the account username and you can find the tweet id within the tweet URL
-#name = 'Trainwreckstv'
-#tweet_id = '1549842583316209664'
-q = 'conversation_id:1549842583316209664'
+#name = 'XXX'
+#tweet_id = 'XXX'
+q = 'conversation_id:XXX'
 
 for tweet_batch in tweepy.Paginator(client.search_recent_tweets, query=q,
                                     tweet_fields=['context_annotations','created_at', 'public_metrics', 'author_id'], 
